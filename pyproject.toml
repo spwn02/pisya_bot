@@ -5,8 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
+    "importlib>=1.0.4",
     "mypy>=1.16.0",
+    "nodemon>=0.0.17",
     "pydantic>=2.11.5",
+    "telebot>=0.0.5",
 ]
 
 [dependency-groups]
